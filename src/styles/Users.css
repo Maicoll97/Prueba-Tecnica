@@ -1,0 +1,44 @@
+.users-container {
+    margin-top: 20px;
+}
+
+.users-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.users-container table th, .users-container table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.users-container table th {
+    background-color: #f4f4f4;
+}
+
+.users-container .edit-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.users-container .edit-button:hover {
+    background-color: #45a049;
+}
+
+.users-container .delete-button {
+    padding: 10px;
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.users-container .delete-button:hover {
+    background-color: #ff1a1a;
+}

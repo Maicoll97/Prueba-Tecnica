@@ -1,0 +1,58 @@
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.dashboard-header .logout-button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dashboard-header .logout-button:hover {
+    background-color: #ff1a1a;
+}
+
+.tasks-list {
+    margin-top: 20px;
+}
+
+.tasks-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tasks-list table th, .tasks-list table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.tasks-list table th {
+    background-color: #f4f4f4;
+}
+
+.tasks-list .task-status-pending {
+    color: #ff9800;
+}
+
+.tasks-list .task-status-in-progress {
+    color: #2196F3;
+}
+
+.tasks-list .task-status-completed {
+    color: #4CAF50;
+}
